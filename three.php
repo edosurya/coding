@@ -2,7 +2,6 @@
 <?php
 include 'main.php';
 ?>
-
 <main>
   <div class="row g-5">
     <div class="col-md-8">
@@ -15,7 +14,7 @@ include 'main.php';
 			
 			<p><strong> Data: </strong></p>
 			<div id="data" class="mb-5"> A -> B </div>
-			<div class="row col-md-12">
+			<div class="col-md-12">
 	        	<div id="graph"></div>
 	    	</div>
         </section>
@@ -23,7 +22,6 @@ include 'main.php';
     </div>
 
 <script type="text/javascript">
-
 
 (function(){
     
