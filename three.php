@@ -9,7 +9,7 @@ include 'main.php';
       	<section id="p_2">
 	        <h2 class="blog-post-title">Problem No. 3</h2>
 	        <p class="mb-0"> <strong> Print Tree</strong></p>
-			<p>Silahkan upload file sesuai dengan format yang telah distandarisasi. Download format file <a href="assets/files/data.csv"> disini</a></p>
+			<p>Silahkan upload file sesuai dengan format yang telah distandarisasi. Download format file <a href="public/files/data.csv"> disini</a></p>
 			<p><strong> Upload Data: </strong></p>
 			<input id='file' type="file" class="mb-5" />
 			
