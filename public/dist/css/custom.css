@@ -1,0 +1,12 @@
+#graph {
+  border: 1px solid lightgray;
+}
+
+li>a {
+	font-style: italic;
+	text-decoration: none !important;
+}
+
+li>a.active {
+	color:#000000;
+}
