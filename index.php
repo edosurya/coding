@@ -15,19 +15,3 @@ include 'main.php';
 
 <?php
 include 'footer.php';
-
-function maximumDiff(&$arr) {
-
-	$a = 0;
-
-	for ($x = 0; $x < count($arr); $x++) {
-		for ($y = 0; $y < $x; $y++) {
-			$b = $arr[$y] - $arr[$x];
-			if ($a > $b) {
-				$a = $b;
-			}
-		}
-	}
-
-	return $a;
-}
